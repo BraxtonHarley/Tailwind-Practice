@@ -67,7 +67,7 @@
   }
   
   .fa-secondary {
-    color: #9A1B1B;
+    color: rgb(150, 20, 150);
   }
   
   .fa-primary,
@@ -155,26 +155,30 @@
       left: 0px;
     }
   }
-  
+
   .dark {
-    --text-primary: #b6b6b6;
-    --text-secondary: #ececec;
-    --bg-primary: grey;
-    --bg-secondary: #141418;
+    --text-primary: #576e75;
+  --text-secondary: #35535c;
+  --bg-primary:  white;
+  --bg-secondary: #CC66FF;
   }
-  
-  .light {
+
+
+
+  .solar {
     --text-primary: #1f1f1f;
     --text-secondary: #000000;
     --bg-primary: #ffffff;
     --bg-secondary: #e4e4e4;
   }
+
   
-  .solar {
-    --text-primary: #576e75;
-    --text-secondary: #35535c;
-    --bg-primary:  white;
-    --bg-secondary: #9A1B1B;
+ 
+  .light {
+    --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: grey;
+  --bg-secondary: #141418;
   }
   
   .theme-icon {
